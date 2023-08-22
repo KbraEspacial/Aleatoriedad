@@ -1,5 +1,5 @@
 # Aleatoriedad
-Este proyecto realiza 3 funciones en Javascrip cada que se presiona click.
+Este proyecto realiza 3 funciones en Javascript cada que se presiona click.
 - El div cambia a un color aleatorio.
 - El div se mueve entre las equinas.
 - El div aumenta o dismimuye un digito.
