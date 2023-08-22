@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.boton{
+    background: green;
+}
+#Boton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+#Boton:active {
+    background-color: #0056b3;
+  }
+#numero{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    transition: transform 0.3s;
+}
+.uno{
+    background: green;
+    top: 0;
+    left: 0;
+
+}
+.dos{
+    top: 0;
+    right: 0;
+
+}
+.tres {
+    background: yellow;
+    bottom: 0;
+    right: 0;
+}
+.cuatro{
+    background: purple;
+    bottom: 0;
+    left: 0;
+}
+.logi{
+    position: absolute;
+    display: flex;
+    z-index: -2;
+    top: 150px;
+    height: 150px;
+    width: 150px;
+}
+#tens{
+    padding: 8px 15px;
+    background-color: #1C73A6;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+    position: absolute;
+    top: 360px;
+
+}
+#tens:active {
+    background-color: #2A4859;
+}
+#pru{
+    padding: 5px 15px;
+    background-color: #1C73A6;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+    position: absolute;
+    top: 400px;
+
+}
+#pru:active {
+    background-color: #2A4859;
+}
+.audio{
+    top: 400px;
+    position: absolute;
+    border: none;
+    scale: 70%;
+}
